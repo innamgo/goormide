@@ -1,4 +1,4 @@
-package hoon.practice.interface;
+package hoon.practice.device;
 
 
 public class DeviceInit {
@@ -7,7 +7,7 @@ public class DeviceInit {
     
 	public DeviceInit() {
 		
-		deviceInterface=new DeviceInput();
+		deviceInterface=new DeviceA();
 	}
 	public DeviceInit(int type) {
 		
@@ -24,8 +24,8 @@ public class DeviceInit {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		(new Device(1)).deviceInterface.print();
-		(new Device(2)).deviceInterface.print();
+		(new DeviceInit(1)).deviceInterface.print();
+		(new DeviceInit(2)).deviceInterface.print();
 		
 	}
 

@@ -1,4 +1,4 @@
-package hoon.practice.interface;
+package hoon.practice.device;
 
 public interface DeviceInterface {
 
